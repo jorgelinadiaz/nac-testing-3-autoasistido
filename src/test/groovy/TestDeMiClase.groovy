@@ -9,6 +9,6 @@ class TestDeMiClase {
     }
 
     @Test void cuadradoDe1() {
-        assert testee.cuadrado(1) == 1	: "el cuadrado de 1 debe ser 1"
+        assert testee.cuadrado(2) == 4	: "el cuadrado de 2 debe ser 4"
     }
 }
